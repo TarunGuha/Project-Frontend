@@ -8,7 +8,7 @@ function App() {
   const [error, setError] = useState(null);
   const [utterance, setUtterance] = useState(null);
 
-  const base_url = "https://883d-106-51-142-195.ngrok-free.app/"
+  const base_url = "http://18.232.179.67/"
 
   const endpoint = base_url + "get_caption"
 
